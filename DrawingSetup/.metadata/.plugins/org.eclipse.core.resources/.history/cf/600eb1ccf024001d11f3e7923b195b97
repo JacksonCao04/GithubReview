@@ -1,0 +1,24 @@
+package shapes;
+
+public class Shapes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//"sphere"
+				g.drawOval(0, 0, 200, 200);
+				g.drawOval(25 ,0, 200-50,200);
+				g.drawOval(50, 0, 100, 200);
+				g.drawOval(75, 0, 50, 200);
+				g.drawOval(0,10,200,200);
+
+
+			//DRAW INSCRIBED/CIRCUMSCRIBED TRIANGLE
+				g.drawOval(300, 100, 200, 200);
+				g.drawLine(400, 100, 300, 220);
+				g.drawLine(300, 220, 500, 200);
+				g.drawLine(500, 200, 400, 100);
+				g.drawOval(355, 130, 100, 80);
+				
+	}
+
+}
